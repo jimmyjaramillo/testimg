@@ -9,40 +9,22 @@
  */
 angular.module('angularApp')
  .controller('MainCtrl', function($scope){
-        var baseURL='http://lorempixel.com/960/450/';
+        var baseURL='http://placeimg.com/640/480/';
         $scope.setInterval=5000;
         $scope.slides=[
         {
-            title:'Aprende  mantenerte en forma',
-            image:baseURL+'sports/',
-            text:'Practica Deporte'
+            title:'known wildlife',
+            image:baseURL+'animals',
+            text:'Animales'
         },
-        { 
-            title:'Buena Alimentacion',
-            image:baseURL+'food/',
-            text:'Alimentate muy bien es bueno'
-        },   { 
-            title:'Naturaleza',
-            image:baseURL+'nature/',
-            text:'Ayuda a Programar'
-        }
-        ];
-         var baseURL='http://lorempixel.com/200/200/';
-         $scope.contenido=[
         {
-            title:'Sobre Nosotros',
-            img:baseURL+'technics/3',
-            summary:'IOET'
-        },
-        { 
-            title:'Servicios',
-            img:baseURL+'business',
-            summary:'IOET'
-        },   { 
-            title:'Contactos',
-            img:baseURL+'transport',
-            summary:'IOET'
+            title:'Nature',
+            image:baseURL+'nature',
+            text:'known the nature'
+        },   {
+            title:'TECH',
+            image:baseURL+'tech',
+            text:'help to programing'
         }
         ];
-
  });
